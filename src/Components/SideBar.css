@@ -1,0 +1,35 @@
+.sidebar {
+  background-color: #f4f4f4;
+  width: 15%;
+  height: 100%;
+  overflow-y: auto; /* Enable vertical scrolling if necessary */
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 2px solid #000;
+  
+}
+
+.sidebar-button {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: wavy;
+  font-size: 14px;
+}
+
+.links{
+  text-decoration: none;
+}
+.sidebar-button:hover {
+  background-color: #f2f8ff;
+  border-radius: 5%;
+}
+
+.button-container{
+  margin-top: 40%;
+}
